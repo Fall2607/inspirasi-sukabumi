@@ -42,6 +42,7 @@
 </div>
 <div class="container-fluid py-4">
     <?= $this->include('site/v_proposal'); ?>
+    <?= $this->include('site/v_pendaftaran'); ?>
     <?= $this->include('templates/footer'); ?>
 </div>
 <?= $this->endSection(); ?>
