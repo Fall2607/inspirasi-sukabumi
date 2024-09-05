@@ -1,0 +1,83 @@
+CRITICAL - 2024-09-04 23:23:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "site/ajuan.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/ajuan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('site/ajuan', [], true)
+ 3 APPPATH\Controllers\Site.php(9): view('site/ajuan')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Site->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 23:23:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "site/ajuan.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/ajuan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('site/ajuan', [], true)
+ 3 APPPATH\Controllers\Site.php(9): view('site/ajuan')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Site->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 23:25:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "site/ajuan.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/ajuan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('site/ajuan', [], true)
+ 3 APPPATH\Controllers\Site.php(9): view('site/ajuan')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Site->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\laragon\\www\\inspirasi-sukabumi\\public\\index.php')
+CRITICAL - 2024-09-04 23:25:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "site/ajuan.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/ajuan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('site/ajuan', [], true)
+ 3 APPPATH\Controllers\Site.php(9): view('site/ajuan')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Site->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\laragon\\www\\inspirasi-sukabumi\\public\\index.php')
+CRITICAL - 2024-09-04 23:26:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "site/ajuan.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site/ajuan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('site/ajuan', [], true)
+ 3 APPPATH\Controllers\Site.php(9): view('site/ajuan')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Site->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\laragon\\www\\inspirasi-sukabumi\\public\\index.php')
+CRITICAL - 2024-09-04 23:37:18 --> ErrorException: Undefined variable $mark
+[Method: GET, Route: inovasi-daerah]
+in APPPATH\Views\templates\sidebar.php on line 19.
+ 1 APPPATH\Views\templates\sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mark', 'C:\\laragon\\www\\inspirasi-sukabumi\\app\\Views\\templates\\sidebar.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\inspirasi-sukabumi\\app\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('templates/sidebar', null, true)
+ 5 APPPATH\Views\templates\index.php(8): CodeIgniter\View\View->include('templates/sidebar')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\inspirasi-sukabumi\\app\\Views\\templates\\index.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('templates/index', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('site/v_inovasi_daerah', [], true)
+10 APPPATH\Controllers\Site.php(22): view('site/v_inovasi_daerah')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Site->inovasi_daerah()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\laragon\\www\\inspirasi-sukabumi\\public\\index.php')

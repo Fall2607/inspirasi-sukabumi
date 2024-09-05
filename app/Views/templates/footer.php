@@ -11,7 +11,7 @@
                     <a href="#" class="font-weight-bold">Fallen~</a>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
                 <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                     <li class="nav-item">
                         <a href="#" class="nav-link text-muted">Creative Tim</a>
@@ -28,7 +28,7 @@
                             target="_blank">License</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
 </footer>
