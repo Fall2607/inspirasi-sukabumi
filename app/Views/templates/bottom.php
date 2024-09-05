@@ -102,26 +102,165 @@
 <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
 <script src="<?= base_url('assets/js/') ?>argon-dashboard.min.js?v=2.0.4"></script>
 
-<!-- Data Tables -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
-<script src="https://cdn.datatables.net/v/bs4-4.6.0/jq-3.7.0/jszip-3.10.1/dt-2.1.5/b-3.1.2/b-html5-3.1.2/b-print-3.1.2/r-3.0.3/datatables.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Bootstrap 4 JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables JS -->
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<!-- DataTables Bootstrap 4 Integration JS -->
+<script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
+<!-- DataTables Buttons JS -->
+<script src="https://cdn.datatables.net/buttons/1.7.1/js/dataTables.buttons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.2.2/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.7.1/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.7.1/js/buttons.print.min.js"></script>
+<!-- Toastr JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <script>
-    $(function() {
-        $("#proposal").DataTable({
-            "responsive": true,
-            "lengthChange": true,
-            "autoWidth": false,
-            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-        }).buttons().container().appendTo('#proposal_wrapper .col-md-6:eq(0)');
-    })
-    $(function() {
-        $("#penerapan").DataTable({
-            "responsive": true,
-            "lengthChange": true,
-            "autoWidth": false,
-            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-        }).buttons().container().appendTo('#penerapan_wrapper .col-md-6:eq(0)');
-    })
+    $(document).ready(function() {
+        var table = $("#proposal").DataTable({
+            responsive: true,
+            lengthChange: true,
+            autoWidth: false,
+            dom: '<"top"lBf>rt<"bottom"ip><"clear">',
+            buttons: [{
+                    extend: 'copy',
+                    text: 'Copy',
+                    titleAttr: 'Copy to clipboard',
+                    action: function(e, dt, button, config) {
+                        $.fn.dataTable.ext.buttons.copyHtml5.action.call(this, e, dt, button, config);
+                        toastr.success('Data copied to clipboard');
+                    }
+                },
+                {
+                    extend: 'csv',
+                    text: 'CSV',
+                    titleAttr: 'Export as CSV',
+                    action: function(e, dt, button, config) {
+                        $.fn.dataTable.ext.buttons.csvHtml5.action.call(this, e, dt, button, config);
+                        toastr.success('CSV file created');
+                    }
+                },
+                {
+                    extend: 'excel',
+                    text: 'Excel',
+                    titleAttr: 'Export as Excel',
+                    action: function(e, dt, button, config) {
+                        $.fn.dataTable.ext.buttons.excelHtml5.action.call(this, e, dt, button, config);
+                        toastr.success('Excel file created');
+                    }
+                },
+                {
+                    extend: 'pdf',
+                    text: 'PDF',
+                    titleAttr: 'Export as PDF',
+                    action: function(e, dt, button, config) {
+                        $.fn.dataTable.ext.buttons.pdfHtml5.action.call(this, e, dt, button, config);
+                        toastr.success('PDF file created');
+                    }
+                },
+                {
+                    extend: 'print',
+                    text: 'Print',
+                    titleAttr: 'Print Table',
+                    action: function(e, dt, button, config) {
+                        $.fn.dataTable.ext.buttons.print.action.call(this, e, dt, button, config);
+                        toastr.success('Print dialog opened');
+                    }
+                }
+            ]
+        });
+
+        // Customize Toastr options
+        toastr.options = {
+            closeButton: true,
+            debug: false,
+            progressBar: true,
+            positionClass: 'toast-top-right',
+            onclick: null,
+            showDuration: '300',
+            hideDuration: '1000',
+            timeOut: '5000',
+            extendedTimeOut: '1000',
+            showEasing: 'swing',
+            hideEasing: 'linear',
+            showMethod: 'fadeIn',
+            hideMethod: 'fadeOut'
+        };
+    });
+
+    $(document).ready(function() {
+        var table = $("#penerapan").DataTable({
+            responsive: true,
+            lengthChange: true,
+            autoWidth: false,
+            dom: '<"top"lBf>rt<"bottom"ip><"clear">',
+            buttons: [{
+                    extend: 'copy',
+                    text: 'Copy',
+                    titleAttr: 'Copy to clipboard',
+                    action: function(e, dt, button, config) {
+                        $.fn.dataTable.ext.buttons.copyHtml5.action.call(this, e, dt, button, config);
+                        toastr.success('Data copied to clipboard');
+                    }
+                },
+                {
+                    extend: 'csv',
+                    text: 'CSV',
+                    titleAttr: 'Export as CSV',
+                    action: function(e, dt, button, config) {
+                        $.fn.dataTable.ext.buttons.csvHtml5.action.call(this, e, dt, button, config);
+                        toastr.success('CSV file created');
+                    }
+                },
+                {
+                    extend: 'excel',
+                    text: 'Excel',
+                    titleAttr: 'Export as Excel',
+                    action: function(e, dt, button, config) {
+                        $.fn.dataTable.ext.buttons.excelHtml5.action.call(this, e, dt, button, config);
+                        toastr.success('Excel file created');
+                    }
+                },
+                {
+                    extend: 'pdf',
+                    text: 'PDF',
+                    titleAttr: 'Export as PDF',
+                    action: function(e, dt, button, config) {
+                        $.fn.dataTable.ext.buttons.pdfHtml5.action.call(this, e, dt, button, config);
+                        toastr.success('PDF file created');
+                    }
+                },
+                {
+                    extend: 'print',
+                    text: 'Print',
+                    titleAttr: 'Print Table',
+                    action: function(e, dt, button, config) {
+                        $.fn.dataTable.ext.buttons.print.action.call(this, e, dt, button, config);
+                        toastr.success('Print dialog opened');
+                    }
+                }
+            ]
+        });
+
+        // Customize Toastr options
+        toastr.options = {
+            closeButton: true,
+            debug: false,
+            progressBar: true,
+            positionClass: 'toast-top-right',
+            onclick: null,
+            showDuration: '300',
+            hideDuration: '1000',
+            timeOut: '5000',
+            extendedTimeOut: '1000',
+            showEasing: 'swing',
+            hideEasing: 'linear',
+            showMethod: 'fadeIn',
+            hideMethod: 'fadeOut'
+        };
+    });
 </script>

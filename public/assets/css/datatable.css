@@ -1,0 +1,45 @@
+.dataTables_wrapper .top {
+    display: flex;
+    align-items: center;
+    /* Ensure elements are vertically centered */
+    margin-bottom: 1em;
+    /* Adjust spacing as needed */
+}
+
+.dataTables_wrapper .top .dataTables_length {
+    margin-right: 1em;
+    /* Space between length change dropdown and search bar */
+}
+
+.dataTables_wrapper .top .dataTables_filter {
+    margin-left: auto;
+    /* Push search bar to the right */
+}
+
+.dataTables_wrapper .top .dt-buttons {
+    display: flex;
+    align-items: center;
+    /* Align buttons vertically with search bar */
+    margin-right: 1em;
+    /* Space between buttons and the edge */
+    margin-top: -10px;
+    /* Adjust this value to move buttons up */
+}
+
+.dataTables_wrapper .top .dataTables_filter input {
+    height: calc(2.5em + 2px);
+    /* Ensure search bar height matches buttons */
+}
+
+/* Custom Toastr Style */
+.toast-success {
+    background-color: #28a745;
+    /* Bootstrap success green */
+    color: #fff;
+    /* White text */
+}
+
+.dataTables_length label select {
+    width: 60px !important;
+    /* Adjust width as needed */
+}

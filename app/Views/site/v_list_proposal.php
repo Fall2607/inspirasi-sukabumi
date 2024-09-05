@@ -1,7 +1,7 @@
 <?= $this->extend('templates/index'); ?>
 
 <?= $this->section('page-content'); ?>
-
+<link id="pagestyle" href="<?= base_url('assets/css/') ?>datatable.css" rel="stylesheet" />
 <div class="container-fluid py-4">
     <div class="row">
         <div class="col-md-8">
