@@ -1,0 +1,12 @@
+CRITICAL - 2024-09-05 05:48:39 --> ParseError: Unclosed '{' on line 25
+[Method: GET, Route: list/proposal]
+in APPPATH\Views\site\v_list_proposal.php on line 49.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('site/v_list_proposal', [], true)
+ 3 APPPATH\Controllers\Site.php(34): view('site/v_list_proposal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Site->list_proposal()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

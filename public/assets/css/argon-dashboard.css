@@ -24571,44 +24571,6 @@ hr.horizontal.gray-light {
   color: #329874;
 }
 
-.table thead th {
-  padding: 0.75rem 1.5rem;
-  text-transform: capitalize;
-  letter-spacing: 0px;
-  border-bottom: 1px solid #e9ecef;
-}
-
-.table th {
-  font-weight: 600;
-}
-
-.table td .progress {
-  height: 3px;
-  width: 120px;
-  margin: 0;
-}
-
-.table td,
-.table th {
-  white-space: nowrap;
-}
-
-.table.align-items-center td,
-.table.align-items-center th {
-  vertical-align: middle;
-}
-
-.table tbody tr:last-child td {
-  border-width: 0;
-}
-
-.table> :not(:last-child)> :last-child>* {
-  border-bottom-color: #e9ecef;
-}
-
-.table> :not(:first-child) {
-  border-top: 1px solid currentColor;
-}
 
 .timeline {
   position: relative;

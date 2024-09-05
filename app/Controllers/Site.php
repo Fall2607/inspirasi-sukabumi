@@ -24,6 +24,26 @@ class Site extends BaseController
         return view('site/v_inovasi_daerah', $data);
     }
 
+    public function list_proposal()
+    {
+        $data = [
+            'mark' => 'propsal',
+            'menu' => 'Menus',
+            'title' => 'List Proposal',
+        ];
+        return view('site/v_list_proposal', $data);
+    }
+
+    public function list_penerapan()
+    {
+        $data = [
+            'mark' => 'penerapan',
+            'menu' => 'Menus',
+            'title' => 'List Penerapan',
+        ];
+        return view('site/v_list_penerapan', $data);
+    }
+
     public function profile()
     {
         $data = [

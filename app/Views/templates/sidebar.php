@@ -37,11 +37,19 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="#">
+                <a class="nav-link <?= ($mark == 'proposal') ? 'active' : '' ?>" href="<?= base_url('/list/proposal') ?>">
                     <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="ni ni-folder-17 text-primary text-sm opacity-10"></i>
                     </div>
-                    <span class="nav-link-text ms-1">Pengajuan</span>
+                    <span class="nav-link-text ms-1">List Proposal</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link <?= ($mark == 'penerapan') ? 'active' : '' ?>" href="<?= base_url('/list/penerapan') ?>">
+                    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="ni ni-app text-primary text-sm opacity-10"></i>
+                    </div>
+                    <span class="nav-link-text ms-1">List Penerapan</span>
                 </a>
             </li>
             <li class="nav-item mt-3">
@@ -54,6 +62,15 @@
                         <i class="ni ni-single-02 text-primary text-sm opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">Profile</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link <?= ($mark == 'user') ? 'active' : '' ?>" href="<?= base_url('/list/user') ?>">
+                    <div
+                        class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="ni ni-world-2 text-primary text-sm opacity-10"></i>
+                    </div>
+                    <span class="nav-link-text ms-1">List User</span>
                 </a>
             </li>
         </ul>

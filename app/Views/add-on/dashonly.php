@@ -1,10 +1,3 @@
-<!--   Core JS Files   -->
-<script src="<?= base_url('assets/js/') ?>core/popper.min.js"></script>
-<script src="<?= base_url('assets/js/') ?>core/bootstrap.min.js"></script>
-<script src="<?= base_url('assets/js/') ?>plugins/perfect-scrollbar.min.js"></script>
-<script src="<?= base_url('assets/js/') ?>plugins/smooth-scrollbar.min.js"></script>
-<script src="<?= base_url('assets/js/') ?>plugins/chartjs.min.js"></script>
-
 <script>
     var ctx1 = document.getElementById("chart-line").getContext("2d");
 
@@ -87,41 +80,4 @@
             },
         },
     });
-</script>
-<script>
-    var win = navigator.platform.indexOf('Win') > -1;
-    if (win && document.querySelector('#sidenav-scrollbar')) {
-        var options = {
-            damping: '0.5'
-        }
-        Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
-    }
-</script>
-<!-- Github buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-<script src="<?= base_url('assets/js/') ?>argon-dashboard.min.js?v=2.0.4"></script>
-
-<!-- Data Tables -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
-<script src="https://cdn.datatables.net/v/bs4-4.6.0/jq-3.7.0/jszip-3.10.1/dt-2.1.5/b-3.1.2/b-html5-3.1.2/b-print-3.1.2/r-3.0.3/datatables.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-<script>
-    $(function() {
-        $("#proposal").DataTable({
-            "responsive": true,
-            "lengthChange": true,
-            "autoWidth": false,
-            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-        }).buttons().container().appendTo('#proposal_wrapper .col-md-6:eq(0)');
-    })
-    $(function() {
-        $("#penerapan").DataTable({
-            "responsive": true,
-            "lengthChange": true,
-            "autoWidth": false,
-            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-        }).buttons().container().appendTo('#penerapan_wrapper .col-md-6:eq(0)');
-    })
 </script>
