@@ -19,4 +19,5 @@
     <link href="<?= base_url('assets/css/') ?>nucleo-svg.css" rel="stylesheet" />
     <!-- CSS Files -->
     <link id="pagestyle" href="<?= base_url('assets/css/') ?>argon-dashboard.css?v=2.0.4" rel="stylesheet" />
+    <link id="pagestyle" href="<?= base_url('assets/css/') ?>style.css" rel="stylesheet" />
 </head>

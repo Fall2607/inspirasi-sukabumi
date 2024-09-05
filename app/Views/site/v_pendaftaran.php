@@ -304,37 +304,37 @@
                 <hr class="horizontal dark">
                 <p class="text-sm">Bagian 6 - 8</p>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md">
                         <div class="form-group">
                             <label for="" class="form-control-label">Aspek Kualitas Inisiasi Inovasi</label>
                             <textarea style="height: 100px;" class="form-control" type="email" placeholder="Mengukur sejauh mana kualitas proses inisiasi inovasi daerah"></textarea>
                         </div>
                     </div>
                 </div>
-                    <div class="col-md">
-                        <label for="" class="form-control-label">Integrasi inovasi daerah dalam dokumen RKPD (tahun n-2, tahun n-1, tahun n)</label>
-                        <p style="font-size: x-small;">(upload halaman RKPD yang memuat program dan kegiatan yang mendukung inisiasi/penerapan inovasi daerah)</p>
-                        <div class="form-group">
-                            <input type="file" class="form-control" id="inputGroupFile02">
-                        </div>
+                <div class="col-md">
+                    <label for="" class="form-control-label">Integrasi inovasi daerah dalam dokumen RKPD (tahun n-2, tahun n-1, tahun n)</label>
+                    <p style="font-size: x-small;">(upload halaman RKPD yang memuat program dan kegiatan yang mendukung inisiasi/penerapan inovasi daerah)</p>
+                    <div class="form-group">
+                        <input type="file" class="form-control" id="inputGroupFile02">
                     </div>
-                    <div class="col-md">
-                        <label for="" class="form-control-label">Dukungan anggaran inovasi daerah</label>
-                        <p style="font-size: x-small;">(upload halaman pertama/cover DPA dan halaman DPA yang memuat rincian belanja pendukung kegiatan inovasi)</p>
-                        <div class="form-group">
-                            <input type="file" class="form-control" id="inputGroupFile02">
-                        </div>
+                </div>
+                <div class="col-md">
+                    <label for="" class="form-control-label">Dukungan anggaran inovasi daerah</label>
+                    <p style="font-size: x-small;">(upload halaman pertama/cover DPA dan halaman DPA yang memuat rincian belanja pendukung kegiatan inovasi)</p>
+                    <div class="form-group">
+                        <input type="file" class="form-control" id="inputGroupFile02">
                     </div>
-                    <div class="col-md">
-                        <div class="form-group">
-                            <label for="" class="form-control-label">Kecepatan Penciptaan Inovasi</label>
-                            <textarea style="height: 100px;" class="form-control" type="email" placeholder="(Waktu yang dibutuhkan untuk menciptakan inovasi daerah, atau lama waktu pada proses inisiasi inovasi daerah)
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="" class="form-control-label">Kecepatan Penciptaan Inovasi</label>
+                        <textarea style="height: 100px;" class="form-control" type="email" placeholder="(Waktu yang dibutuhkan untuk menciptakan inovasi daerah, atau lama waktu pada proses inisiasi inovasi daerah)
 catatan : 
 - diisi dengan satuan bulan, seperti 1 bulan, 2 bulan, dst
 - inovasi yang baik diinisiasi kurang dari 4 bulan"></textarea>
-                        </div>
                     </div>
-                
+                </div>
+
                 <hr class="horizontal dark">
                 <p class="text-sm">Bagian 7 - 8</p>
                 <div class="row">
@@ -345,47 +345,47 @@ catatan :
                         </div>
                     </div>
                 </div>
-                    <div class="col-md">
-                        <label for="" class="form-control-label">Pedoman Teknis/ Buku Petunjuk/ Manual Book dalam penerapan inovasi daerah</label>
-                        <p style="font-size: x-small;">(upload Pedoman Teknis/ Buku Petunjuk/ Manual Book penerapan inovasi daerah dalam bentuk file pdf, dengan ukuran file maksimal 10 MB)
-                        </p>
-                        <div class="form-group">
-                            <input type="file" class="form-control" id="inputGroupFile02">
-                        </div>
+                <div class="col-md">
+                    <label for="" class="form-control-label">Pedoman Teknis/ Buku Petunjuk/ Manual Book dalam penerapan inovasi daerah</label>
+                    <p style="font-size: x-small;">(upload Pedoman Teknis/ Buku Petunjuk/ Manual Book penerapan inovasi daerah dalam bentuk file pdf, dengan ukuran file maksimal 10 MB)
+                    </p>
+                    <div class="form-group">
+                        <input type="file" class="form-control" id="inputGroupFile02">
                     </div>
-                    <div class="col-md">
-                        <label for="" class="form-control-label">Sosialisasi Inovasi Daerah</label>
-                        <p style="font-size: x-small;">(upload dokumentasi kegiatan penyebarluasan informasi/sosialisasi inovasi daerah, seperti sosialisasi tatap muka, konten media sosial, atau melalui media berita)
-                        </p>
-                        <div class="form-group">
-                            <input type="file" class="form-control" id="inputGroupFile02">
-                        </div>
-                        <p style="font-size: x-small;">file dapat berupa jpg, jpeg, png dengan ukuran maksimal 1 MB
-                        </p>
+                </div>
+                <div class="col-md">
+                    <label for="" class="form-control-label">Sosialisasi Inovasi Daerah</label>
+                    <p style="font-size: x-small;">(upload dokumentasi kegiatan penyebarluasan informasi/sosialisasi inovasi daerah, seperti sosialisasi tatap muka, konten media sosial, atau melalui media berita)
+                    </p>
+                    <div class="form-group">
+                        <input type="file" class="form-control" id="inputGroupFile02">
                     </div>
-                    <div class="col-md">
-                        <label for="" class="form-control-label">Kemudahan Informasi Layanan Inovasi</label>
-                        <p style="font-size: x-small;">(Upload media informasi yang tersedia untuk mengakses layanan inovasi. Dibuktikan dengan nomor layanan telp/screenshot email/akun media sosial/nama aplikasi online/bagian dalam dari aplikasi online/dokumen foto buku tamu)
-                        </p>
-                        <div class="form-group">
-                            <input type="file" class="form-control" id="inputGroupFile02">
-                        </div>
-                        <p style="font-size: x-small;">layanan file dapat berupa pdf/jpeg/jpg/png, dengan ukuran maksimal 1 MB
-                        </p>
+                    <p style="font-size: x-small;">file dapat berupa jpg, jpeg, png dengan ukuran maksimal 1 MB
+                    </p>
+                </div>
+                <div class="col-md">
+                    <label for="" class="form-control-label">Kemudahan Informasi Layanan Inovasi</label>
+                    <p style="font-size: x-small;">(Upload media informasi yang tersedia untuk mengakses layanan inovasi. Dibuktikan dengan nomor layanan telp/screenshot email/akun media sosial/nama aplikasi online/bagian dalam dari aplikasi online/dokumen foto buku tamu)
+                    </p>
+                    <div class="form-group">
+                        <input type="file" class="form-control" id="inputGroupFile02">
                     </div>
-                    <div class="col-md">
-                        <div class="form-group">
-                            <label for="" class="form-control-label">Kecepatan Proses Layanan Inovasi / Kemudahan proses inovasi dihasilkan</label>
-                            <p style="font-size: x-small;">(waktu yang dibutuhkan customer untuk mendapatkan produk yang dihasilkan dari layanan inovasi)</p>
-                            <select class="form-select">
-                                <option hidden>Pilih Jawaban</option>
-                                <option value="">2 s/d 5 hari</option>
-                                <option value="">1 hari</option>
-                            </select>
-                            <p style="font-size: x-small;">catatan : kecepatan proses layanan inovasi harus sesuai dengan diagram alir cara kerja/SOP</p>
-                        </div>
+                    <p style="font-size: x-small;">layanan file dapat berupa pdf/jpeg/jpg/png, dengan ukuran maksimal 1 MB
+                    </p>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="" class="form-control-label">Kecepatan Proses Layanan Inovasi / Kemudahan proses inovasi dihasilkan</label>
+                        <p style="font-size: x-small;">(waktu yang dibutuhkan customer untuk mendapatkan produk yang dihasilkan dari layanan inovasi)</p>
+                        <select class="form-select">
+                            <option hidden>Pilih Jawaban</option>
+                            <option value="">2 s/d 5 hari</option>
+                            <option value="">1 hari</option>
+                        </select>
+                        <p style="font-size: x-small;">catatan : kecepatan proses layanan inovasi harus sesuai dengan diagram alir cara kerja/SOP</p>
                     </div>
-                
+                </div>
+
                 <hr class="horizontal dark">
                 <p class="text-sm">Bagian 8 - 8</p>
                 <div class="row">
@@ -406,67 +406,67 @@ catatan :
                         </div>
                     </div>
                 </div>
-                    <div class="col-md">
-                        <label for="" class="form-control-label">Upload bukti dukung dari penjelasan kemanfaatan layanan inovasi, seperti daftar penerima manfaat atau laporan layanan inovasi</label>
-                        <div class="form-group">
-                            <input type="file" class="form-control" id="inputGroupFile02">
-                        </div>
-                        <p style="font-size: x-small;">(file dalam bentuk pdf dengan ukuran maksimal 10 MB)
-                        </p>
+                <div class="col-md">
+                    <label for="" class="form-control-label">Upload bukti dukung dari penjelasan kemanfaatan layanan inovasi, seperti daftar penerima manfaat atau laporan layanan inovasi</label>
+                    <div class="form-group">
+                        <input type="file" class="form-control" id="inputGroupFile02">
                     </div>
-                    <div class="col-md">
-                        <label for="" class="form-control-label">Monitoring dan evaluasi inovasi daerah yang menggambarkan kepuasan pengguna layanan inovasi daerah</label>
-                        <p style="font-size: x-small;">upload laporan hasil monev internal, dan/atau hasil pengukuran survei kepuasan masyarakat, dan/atau hasil laporan monev pihak eksternal berdasarkan hasil penelitian/kajian/analisis
-                        </p>
-                        <div class="form-group">
-                            <input type="file" class="form-control" id="inputGroupFile02">
-                        </div>
-                        <p style="font-size: x-small;">(file dalam bentuk pdf dengan ukuran maksimal 10 MB)
-                        </p>
+                    <p style="font-size: x-small;">(file dalam bentuk pdf dengan ukuran maksimal 10 MB)
+                    </p>
+                </div>
+                <div class="col-md">
+                    <label for="" class="form-control-label">Monitoring dan evaluasi inovasi daerah yang menggambarkan kepuasan pengguna layanan inovasi daerah</label>
+                    <p style="font-size: x-small;">upload laporan hasil monev internal, dan/atau hasil pengukuran survei kepuasan masyarakat, dan/atau hasil laporan monev pihak eksternal berdasarkan hasil penelitian/kajian/analisis
+                    </p>
+                    <div class="form-group">
+                        <input type="file" class="form-control" id="inputGroupFile02">
                     </div>
-                    <div class="col-md">
-                        <label for="" class="form-control-label">Penyelesaian layanan pengaduan</label>
-                        <p style="font-size: x-small;">(Rasio pengaduan yang tertangani dalam tahun terakhir, meliputi keluhan, kritik konstruktif, saran, dan pengaduan lainnya terkait layanan inovasi)
-                        </p>
+                    <p style="font-size: x-small;">(file dalam bentuk pdf dengan ukuran maksimal 10 MB)
+                    </p>
+                </div>
+                <div class="col-md">
+                    <label for="" class="form-control-label">Penyelesaian layanan pengaduan</label>
+                    <p style="font-size: x-small;">(Rasio pengaduan yang tertangani dalam tahun terakhir, meliputi keluhan, kritik konstruktif, saran, dan pengaduan lainnya terkait layanan inovasi)
+                    </p>
+                    <select class="form-select">
+                        <option hidden>Pilih Jawaban</option>
+                        <option value="">Pengaduan yang tertangani kurang dari atau sama dengan 50 persen</option>
+                        <option value="">Pengaduan yang tertangani antara 51 - 80 persen</option>
+                        <option>Pengaduan yang tertangani lebih dari atau sama dengan 81 persen</option>
+                    </select>
+                </div>
+                <div class="col-md">
+                    <label for="" class="form-control-label">Upload bukti dukung penyelesaian layanan pengaduan</label>
+                    <p style="font-size: x-small;">(Dibuktikan dengan dokumen foto kegiatan penyelesaian pengaduan/screenshot media layanan pengaduan yang disertai dengan rekapitulasi pengaduan dan persentase rasio penyelesaian pengaduan)
+                    </p>
+                    <div class="form-group">
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                    </div>
+                    <p style="font-size: x-small;">file dapat berupa pdf/jpeg/jpg/png, dengan ukuran maksimal 1 MB
+                    </p>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="" class="form-control-label">Apakah inovasi daerah pernah direplikasi oleh daerah lain</label>
                         <select class="form-select">
                             <option hidden>Pilih Jawaban</option>
-                            <option value="">Pengaduan yang tertangani kurang dari atau sama dengan 50 persen</option>
-                            <option value="">Pengaduan yang tertangani antara 51 - 80 persen</option>
-                            <option>Pengaduan yang tertangani lebih dari atau sama dengan 81 persen</option>
+                            <option value="">Ya</option>
+                            <option value="">Belum</option>
                         </select>
                     </div>
-                    <div class="col-md">
-                        <label for="" class="form-control-label">Upload bukti dukung penyelesaian layanan pengaduan</label>
-                        <p style="font-size: x-small;">(Dibuktikan dengan dokumen foto kegiatan penyelesaian pengaduan/screenshot media layanan pengaduan yang disertai dengan rekapitulasi pengaduan dan persentase rasio penyelesaian pengaduan)
-                        </p>
-                        <div class="form-group">
-                            <input type="file" class="form-control" id="inputGroupFile02">
-                        </div>
-                        <p style="font-size: x-small;">file dapat berupa pdf/jpeg/jpg/png, dengan ukuran maksimal 1 MB
-                        </p>
+                </div>
+                <div class="col-md">
+                    <label for="" class="form-control-label">Jika inovasi daerah pernah direplikasi oleh daerah lain, silahkan upload bukti dukung seperti dokumen PKS/ MoU/dokumen, korespondensi replikasi/surat pernyataan/surat keterangan</label>
+                    <div class="form-group">
+                        <input type="file" class="form-control" id="inputGroupFile02">
                     </div>
-                    <div class="col-md">
-                        <div class="form-group">
-                            <label for="" class="form-control-label">Apakah inovasi daerah pernah direplikasi oleh daerah lain</label>
-                            <select class="form-select">
-                                <option hidden>Pilih Jawaban</option>
-                                <option value="">Ya</option>
-                                <option value="">Belum</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md">
-                        <label for="" class="form-control-label">Jika inovasi daerah pernah direplikasi oleh daerah lain, silahkan upload bukti dukung seperti dokumen PKS/ MoU/dokumen, korespondensi replikasi/surat pernyataan/surat keterangan</label>
-                        <div class="form-group">
-                            <input type="file" class="form-control" id="inputGroupFile02">
-                        </div>
-                        <p style="font-size: x-small;">(file dalam bentuk pdf dengan ukuran maksimal 10 MB)
-                        </p>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="" class="form-control-label">Video Inovasi Daerah</label>
-                            <textarea style="height: 100px;" class="form-control" type="email" placeholder="Diisi dengan memasukan link video penerapan inovasi dengan durasi maksimal 5 menit (mp4/MOV). Link video dapat berupa link google drive/ youtube.
+                    <p style="font-size: x-small;">(file dalam bentuk pdf dengan ukuran maksimal 10 MB)
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="" class="form-control-label">Video Inovasi Daerah</label>
+                        <textarea style="height: 100px;" class="form-control" type="email" placeholder="Diisi dengan memasukan link video penerapan inovasi dengan durasi maksimal 5 menit (mp4/MOV). Link video dapat berupa link google drive/ youtube.
 Video dibuat dengan memvisualisasikan 5 substansi:
 1. Latar belakang inovasi;
 2. Penjaringan ide;
@@ -474,9 +474,9 @@ Video dibuat dengan memvisualisasikan 5 substansi:
 4. Manfaat inovasi; dan
 5. Dampak inovasi.
 Video inovasi dilengkapi dengan cover thumbnail dan ada logo Kemendagri dan Kabupaten Sukabumi"></textarea>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>

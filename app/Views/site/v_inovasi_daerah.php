@@ -23,13 +23,13 @@
                 <div class="nav-wrapper position-relative end-0">
                     <ul class="nav nav-pills nav-fill p-1" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link mb-0 px-0 py-1 active d-flex align-items-center justify-content-center " data-bs-toggle="tab" href="javascript:;" role="tab" aria-selected="true">
+                            <a class="nav-link mb-0 px-0 py-1 active d-flex align-items-center justify-content-center" id="proposal-tab" data-bs-toggle="tab" href="javascript:;" role="tab" aria-selected="true">
                                 <i class="ni ni-app"></i>
                                 <span class="ms-2">Proposal</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mb-0 px-0 py-1 d-flex align-items-center justify-content-center " data-bs-toggle="tab" href="javascript:;" role="tab" aria-selected="false">
+                            <a class="nav-link mb-0 px-0 py-1 d-flex align-items-center justify-content-center" id="penerapan-tab" data-bs-toggle="tab" href="javascript:;" role="tab" aria-selected="false">
                                 <i class="ni ni-settings-gear-65"></i>
                                 <span class="ms-2">Penerapan</span>
                             </a>
@@ -41,8 +41,15 @@
     </div>
 </div>
 <div class="container-fluid py-4">
-    <?= $this->include('site/v_proposal'); ?>
-    <?= $this->include('site/v_pendaftaran'); ?>
+    <div id="content-proposal" class="fade-in-up">
+        <?= $this->include('site/v_proposal'); ?>
+    </div>
+    <div id="content-penerapan" class="hidden">
+        <?= $this->include('site/v_pendaftaran'); ?>
+    </div>
     <?= $this->include('templates/footer'); ?>
 </div>
+
+<script src="<?= base_url('assets/js/inovasi.js') ?>"></script>
+
 <?= $this->endSection(); ?>
